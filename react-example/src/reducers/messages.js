@@ -1,5 +1,3 @@
-// import { CURRENT_USER_RECEIVE } from 'app/actions/current-user';
-
 const initialState = [
   {
     id: 1,
