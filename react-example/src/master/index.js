@@ -1,11 +1,14 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import './styles.css';
+
+import Preview from '../preview';
 
 const Master = ({ messages }) => (
   <div className="master">
     {
       messages.map(message => (
-        <div>{message.title}</div>
+        <Preview message={message} key={message.id} />
       ))
     }
   </div>

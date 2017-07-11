@@ -1,0 +1,23 @@
+.widget {
+  height: 50px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.widget--open {
+  height: auto;
+}
+
+.widget__item {
+  display: block;
+  width: 200px;
+  height: 50px;
+  padding: 0 1em;
+  line-height: 50px;
+}

@@ -1,0 +1,19 @@
+.preview {
+  display: block;
+  color: #3c464c;
+  padding: 1em;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.preview:hover {
+  background-color: #4db8ff;
+  color: #fff;
+}
+
+.preview__from {
+  padding: 0;
+  margin: 0 0 0.25em;
+  font-size: 1rem;
+  font-weight: 700;
+}

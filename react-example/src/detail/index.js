@@ -1,14 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import './styles.css';
 
-class Detail extends Component {
-  render() {
-    return (
-      <div className="detail">
-        Yo
-      </div>
-    );
-  }
-}
+import Widget from '../widget';
+
+const Detail = ({ message }) => (
+  <div className="detail">
+    <h1>{message.title}</h1>
+    <p>{message.body}</p>
+    <Widget />
+  </div>
+);
+
+Detail.propTypes = {
+  message: PropTypes.object.isRequired
+};
 
 export default Detail;
