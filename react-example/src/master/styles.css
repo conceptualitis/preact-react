@@ -1,0 +1,8 @@
+.master {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  backdrop-filter: blur(20px);
+}

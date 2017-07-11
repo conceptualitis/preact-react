@@ -1,0 +1,8 @@
+.app {
+  display: flex;
+  height: 80vh;
+  width: 80vw;
+  color: #3c464c;
+  border-radius: 3px;
+  box-shadow: 0 20px 40px 5px rgba(0, 0, 0, .5);
+}

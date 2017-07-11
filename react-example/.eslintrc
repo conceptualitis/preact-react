@@ -1,0 +1,34 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "window": true,
+    "document": true,
+    "fetch": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": [2, { ignore: ["app-config", "^app"] }],
+    "jsx-a11y/label-has-for": 0,
+    "no-unused-vars": ["error", { "varsIgnorePattern": "^h$" }],
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-es6-class": 0,
+    "react/require-extension": 0,
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {
+        "root": ["./app/Resources/js"],
+        "alias": {
+          "app": "react-app"
+        }
+      }
+    }
+  }
+}
